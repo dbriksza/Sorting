@@ -14,10 +14,7 @@ def selection_sort( arr ):
         arr[i] = arr[smallest_index]
         arr[smallest_index] = temp
 
-
-
     return arr
-
 
 # TO-DO:  implement the Bubble Sort function below
 def bubble_sort( arr ):
@@ -28,9 +25,7 @@ def bubble_sort( arr ):
                 arr[j] = arr[(j+1)]
                 arr[(j+1)] = temp
                 
-
     return arr
-
 
 # STRETCH: implement the Count Sort function below
 def count_sort( arr, maximum=-1 ):
